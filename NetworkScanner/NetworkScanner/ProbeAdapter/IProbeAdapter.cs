@@ -8,7 +8,7 @@ namespace NetworkScanner
 {
     interface IProbeAdapter
     {
-        IProbeRapport Probe(string ssid);
+        IProbeRapport Probe(string mac);
         IEnumerable<IProbeResult> InitialScanResults();
     }
 }

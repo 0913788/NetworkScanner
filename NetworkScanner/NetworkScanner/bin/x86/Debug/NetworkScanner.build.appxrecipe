@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b0bacec8-e535-4964-9c6c-eb63a3dc8c74</PackageIdentityName>
     <PackageIdentityPublisher>CN=Ricardo</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\bin\x86\Debug\NetworkScanner.exe">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\bin\x86\Debug\NetworkScanner.exe">
       <PackagePath>entrypoint\NetworkScanner.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -334,46 +334,46 @@
     <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\bin\x86\Debug\NetworkScanner.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\bin\x86\Debug\NetworkScanner.xr.xml">
       <PackagePath>NetworkScanner.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\Desktop\NetworkScanner\NetworkScanner\bin\x86\Debug\Core\NetworkScanner.exe">
+    <AppxPackagedFile Include="C:\Users\Ricardo\Source\Repos\NetworkScanner\NetworkScanner\NetworkScanner\bin\x86\Debug\Core\NetworkScanner.exe">
       <PackagePath>NetworkScanner.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

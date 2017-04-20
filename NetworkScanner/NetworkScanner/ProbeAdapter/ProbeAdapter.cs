@@ -24,7 +24,7 @@ namespace NetworkScanner
             if (ActiveDevice)
             {
                 Scan();
-                foreach (WiFiAvailableNetwork network in WifiDevice.NetworkReport.AvailableNetworks)
+                foreach (WiFiAvailableNetwork network in WifiDevice.NetworkReport.AvailableNetworks.OrderByDescending(x => x.NetworkRssiInDecibelMilliwatts))
                 {
                     results.Add(new ProbeResult(network.Bssid, network.Ssid, network.NetworkRssiInDecibelMilliwatts, network.ChannelCenterFrequencyInKilohertz));
                 }
@@ -32,13 +32,13 @@ namespace NetworkScanner
             return results;
         }
 
-        public IProbeRapport Probe(string ssid)
+        public IProbeRapport Probe(string mac)
         {
             IProbeRapport result = new ProbeRapport();
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 5; i++)
             {
                 Scan();
-                WiFiAvailableNetwork targetNetwork = WifiDevice.NetworkReport.AvailableNetworks.Where(x => x.Ssid.ToLower() == ssid.ToLower()).FirstOrDefault();
+                WiFiAvailableNetwork targetNetwork = WifiDevice.NetworkReport.AvailableNetworks.Where(x => x.Bssid.ToLower() == mac.ToLower()).FirstOrDefault();
                 result.AddProbeResult(new ProbeResult(targetNetwork.Bssid, targetNetwork.Ssid, targetNetwork.NetworkRssiInDecibelMilliwatts, targetNetwork.ChannelCenterFrequencyInKilohertz));
             }
             return result;

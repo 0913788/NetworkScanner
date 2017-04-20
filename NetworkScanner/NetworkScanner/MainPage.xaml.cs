@@ -62,6 +62,8 @@ namespace NetworkScanner
                 ChosenSSIDTxtBox.Text = DiscoveredNetworks.ElementAt(index).GetSSID();
                 double frequency = DiscoveredNetworks.ElementAt(index).GetFrequency()/1000;
                 CurrentFrequencyTxtBox.Text = frequency.ToString();
+                RSSIMeanCurrentTxtBox.Text = "";
+                CurrentAPDistanceTxtBox.Text = "";
             }
             else
             {
@@ -78,7 +80,7 @@ namespace NetworkScanner
 
         private void ProbeButton_Click(object sender, RoutedEventArgs e)
         {
-            IProbeRapport rapport = Prober.Probe(ChosenSSIDTxtBox.Text);
+            IProbeRapport rapport = Prober.Probe(ChosenMACTxtBox.Text);
             RSSIMeanCurrentTxtBox.Text = rapport.GetRSSIMean().ToString();
             CurrentAPDistanceTxtBox.Text = rapport.calculateDistance(rapport.GetRSSIMean(), rapport.GetFrequency() / 1000).ToString();
         }
